@@ -19,3 +19,9 @@ const tips = [tipCalculator(bills[0]), tipCalculator(bills[1]), tipCalculator(bi
 
 const finalCost = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]]
 
+function isGreater(num){
+    return(num > 100);
+}
+
+let copy = finalCost.filter(isGreater);
+console.log(copy);
