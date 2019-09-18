@@ -1,6 +1,6 @@
 
 
-function tipCalculator(bills) {
+/* function tipCalculator(bills) {
     if (bills < 50 ) {
         percentage = .2;
     }
@@ -24,4 +24,30 @@ function isGreater(num){
 }
 
 let copy = finalCost.filter(isGreater);
-console.log(copy);
+console.log(copy); */
+
+const Rob = {
+    fullName: 'Rob Grande',
+    mass: 78,
+    height: 1.69,
+    bmi: function(){
+        return (this.mass / this.height*2)
+    }
+        
+        
+};
+const Dejon = {
+    fullName: 'Dejon Kurti',
+    mass: 110,
+    height: 1.95,
+    bmi: function(){
+        return (this.mass / this.height*2)
+    }
+};
+
+if (Dejon.bmi() > Rob.bmi()) {
+    console.log(Dejon.bmi)
+};
+else if {
+
+}
